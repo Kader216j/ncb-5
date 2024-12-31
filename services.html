@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="services.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid" style="background-color: white;">
+      <div class="hi"><a class="navbar-brand  logo" href="index.html" style="margin-left: 50px;"><img src="logo.jpg" width="33%"></a></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0  nawba" style="gap: 50px; font-size:20px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="services.html"><b>Services</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="construction-packages.html"><b>Construction Packages</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="delivery.html"><b>Delivered Projects</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html"><b>Contact</b></a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <div class="enqui" style="text-align: center;"><button style="text-align: center;" class="click-popup-call" type="submit" id="openPopup">ENQUIRY</button></div>
+          <div class="overlay">
+
+
+
+            <div class="popup-call">
+              <button class="close-btn">&times;</button>
+              <div class="popup-form">
+                  <b>FOR ENQUIRY</b>
+                  <form>
+                      <input type="text" placeholder="Your Name" required>
+                      <input type="email" placeholder="Your Email" required>
+                      <textarea placeholder="Your Message" required></textarea>
+                      <input type="submit" value="Send" style="background-color: orange;">
+                  </form>
+              </div>
+              <div class="popup-text">
+                  <h3>Nagercoil Builders.com</h3>
+                  <p>HOME CONSTRUCTION EXPERTS IN INDIA</p>
+              </div>
+            </div>
+     
+         
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     
+            <script>
+              $(document).ready(function () {
+                  $('.click-popup-call').on('click', function () {
+                      $('.popup-call').toggleClass('popup-call-show');
+                      $('.overlay').toggleClass('overlay-show');
+                  });
+     
+                  $('.overlay, .close-btn').on('click', function () {
+                      $('.popup-call').removeClass('popup-call-show');
+                      $('.overlay').removeClass('overlay-show');
+                  });
+              });
+            </script>
+          </div>
+
+          
+           
+        </form>
+      </div>
+    </div>
+</nav>
+    <div class="container1">
+        <img src="background12.jpg" width="100%" height="600px">
+
+        <div class="row1">
+            <i><strong><p class="con1p1" >SERVICES</p></strong></i>
+        </div>
+    </div>
+    <div class="container5" style="margin-top: 180px;">
+        <div class="row1">
+          <strong><p style="color: rgb(19, 18, 18);font-size: 45px;text-align: center;">Services  <span style="color: orange;"> We</span> Provide</p></strong><br>
+
+
+        </div>
+        <div class="row2">
+          <div class="service-box">
+            <figure class="icon">
+              <img decoding="async" src="consulting1.jpg.png"width="100%" style="border-radius: 10px;" alt="Garden &amp; Outdoor" class="img-fluid">
+            </figure>
+            <h5>CONSULTING</h5>
+            <p class="text-size-18">
+              Quia voluptas sit asernatur aut odit aut fugit, sed quia consequunturaer magni dolores eos qui ratione volura serui nesciunt.
+            </p>
+            <a class="text-decoration-none" href="https://designingmedia.com/callegari/callegari_services/garden-outdoor/">Read more</a>
+          </div>
+          <div class="service-box">
+            <figure class="icon">
+              <img decoding="async" src="estimate1.jpg.png"width="100%" style="border-radius: 10px;" alt="Garden &amp; Outdoor" class="img-fluid">
+            </figure>
+            <h5>ESTIMATE</h5>
+            <p class="text-size-18">
+              Quia voluptas sit asernatur aut odit aut fugit, sed quia consequunturaer magni dolores eos qui ratione volura serui nesciunt.
+            </p>
+            <a class="text-decoration-none" href="https://designingmedia.com/callegari/callegari_services/garden-outdoor/">Read more</a>
+          </div>
+
+
+          <div class="service-box">
+            <figure class="icon">
+              <img decoding="async" src="plan-design1.jpg.png"width="100%" style="border-radius: 10px;" alt="Garden &amp; Outdoor" class="img-fluid">
+            </figure>
+            <h5>PLAN & DESIGN</h5>
+            <p class="text-size-18">
+              Quia voluptas sit asernatur aut odit aut fugit, sed quia consequunturaer magni dolores eos qui ratione volura serui nesciunt.
+            </p>
+            <a class="text-decoration-none" href="https://designingmedia.com/callegari/callegari_services/garden-outdoor/">Read more</a>
+          </div>
+          <div class="service-box">
+            <figure class="icon">
+              <img decoding="async" src="construction1.jpg.png"width="100%" style="border-radius: 10px;" alt="Garden &amp; Outdoor" class="img-fluid">
+            </figure>
+            <h5>CONSTRUCTION</h5>
+            <p class="text-size-18">
+              Quia voluptas sit asernatur aut odit aut fugit, sed quia consequunturaer magni dolores eos qui ratione volura serui nesciunt.
+            </p>
+            <a class="text-decoration-none" href="https://designingmedia.com/callegari/callegari_services/garden-outdoor/">Read more</a>
+          </div>
+        </div>
+        <div class="row2">
+          <div class="service-box">
+            <figure class="icon">
+              <img decoding="async" src="interior-design1.jpg.png"width="100%" style="border-radius: 10px;" alt="Garden &amp; Outdoor" class="img-fluid">
+            </figure>
+            <h5>INTERIOR DESIGN</h5>
+            <p class="text-size-18">
+              Quia voluptas sit asernatur aut odit aut fugit, sed quia consequunturaer magni dolores eos qui ratione volura serui nesciunt.
+            </p>
+            <a class="text-decoration-none" href="https://designingmedia.com/callegari/callegari_services/garden-outdoor/">Read more</a>
+          </div>
+          <div class="service-box">
+            <figure class="icon">
+              <img decoding="async" src="carpentry1.jpg.png"width="100%" style="border-radius: 10px;" alt="Garden &amp; Outdoor" class="img-fluid">
+            </figure>
+            <h5>CARPENTRY</h5>
+            <p class="text-size-18">
+              Quia voluptas sit asernatur aut odit aut fugit, sed quia consequunturaer magni dolores eos qui ratione volura serui nesciunt.
+            </p>
+            <a class="text-decoration-none" href="https://designingmedia.com/callegari/callegari_services/garden-outdoor/">Read more</a>
+          </div>
+          <div class="service-box">
+            <figure class="icon">
+              <img decoding="async" src="electric work1.jpg.png"width="100%" style="border-radius: 10px;" alt="Garden &amp; Outdoor" class="img-fluid">
+            </figure>
+            <h5>ELECTRIC WORK</h5>
+            <p class="text-size-18">
+              Quia voluptas sit asernatur aut odit aut fugit, sed quia consequunturaer magni dolores eos qui ratione volura serui nesciunt.
+            </p>
+            <a class="text-decoration-none" href="https://designingmedia.com/callegari/callegari_services/garden-outdoor/">Read more</a>
+          </div>
+          <div class="service-box">
+            <figure class="icon">
+              <img decoding="async" src="3d elevation1.jpg.png"width="100%" style="border-radius: 10px;" alt="Garden &amp; Outdoor" class="img-fluid">
+            </figure>
+            <h5>3D-ELEVATION</h5>
+            <p class="text-size-18">
+              Quia voluptas sit asernatur aut odit aut fugit, sed quia consequunturaer magni dolores eos qui ratione volura serui nesciunt.
+            </p>
+            <a class="text-decoration-none" href="https://designingmedia.com/callegari/callegari_services/garden-outdoor/">Read more</a>
+          </div>
+        </div>
+        <div class="row2">
+          <div class="service-box" >
+            <figure class="icon">
+              <img decoding="async" src="flooring1.jpg.png"width="100%" style="border-radius: 10px;" alt="Garden &amp; Outdoor" class="img-fluid">
+            </figure>
+            <h5>FLOORING</h5>
+            <p class="text-size-18">
+              Quia voluptas sit asernatur aut odit aut fugit, sed quia consequunturaer magni dolores eos qui ratione volura serui nesciunt.
+            </p>
+            <a class="text-decoration-none" href="https://designingmedia.com/callegari/callegari_services/garden-outdoor/">Read more</a>
+          </div>
+
+          <div class="service-box">
+            <figure class="icon">
+              <img decoding="async" src="painting work1.jpg.png"width="100%" style="border-radius: 10px;" alt="Garden &amp; Outdoor" class="img-fluid">
+            </figure>
+            <h5>PAINTING WORK</h5>
+            <p class="text-size-18">
+              Quia voluptas sit asernatur aut odit aut fugit, sed quia consequunturaer magni dolores eos qui ratione volura serui nesciunt.
+            </p>
+            <a class="text-decoration-none" href="https://designingmedia.com/callegari/callegari_services/garden-outdoor/">Read more</a>
+          </div>
+          <div class="service-box">
+            <figure class="icon">
+              <img decoding="async" src="interior-work1.jpg.png"width="100%" style="border-radius: 10px;" alt="Garden &amp; Outdoor" class="img-fluid">
+            </figure>
+            <h5>INTERIOR WORK</h5>
+            <p class="text-size-18">
+              Quia voluptas sit asernatur aut odit aut fugit, sed quia consequunturaer magni dolores eos qui ratione volura serui nesciunt.
+            </p>
+            <a class="text-decoration-none" href="https://designingmedia.com/callegari/callegari_services/garden-outdoor/">Read more</a>
+          </div>
+          <div class="service-box" >
+            <figure class="icon">
+              <img decoding="async" src="renovation1.jpg.png"width="100%" style="border-radius: 10px;" alt="Garden &amp; Outdoor" class="img-fluid">
+            </figure>
+            <h5>RENOVATION</h5>
+            <p class="text-size-18">
+              Quia voluptas sit asernatur aut odit aut fugit, sed quia consequunturaer magni dolores eos qui ratione volura serui nesciunt.
+            </p>
+            <a class="text-decoration-none" href="https://designingmedia.com/callegari/callegari_services/garden-outdoor/">Read more</a>
+          </div>
+        </div>        
+      </div>
+      <div class="container7">
+        <div class="container6">
+
+          <div class="row1">
+            <div class="column1">
+              <img src="logo.jpg" width="50%"><br><br>
+              <p class="con6p1" >Our clients range from FTSE companies,to large organisations and some small local businesses who are striving to expand.</p><br>
+              <p class="con6p1">To see a detailed list of our works and the progress please see our project page.</p>
+            </div>
+            <div class="column2">
+              <div class="face" >
+                <a href="https://www.facebook.com/profile.php?id=61563730416828"><img src="facebook-app-symbol1.png" alt=""></a>
+              </div>
+              <div class="yout" >
+               <a href="http://www.youtube.com/@Nagercoilbuilders"> <img src="youtube1.png" alt=""></a>
+              </div>
+              <div class="ins"> 
+                <a href="https://www.instagram.com/nagercoilbuilderss?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="instagram1.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row2">
+            <div class="column1">
+              <h3 style="color: white;">SERVICES</h3><br>
+              <ul >
+                <li ><a href="#" style="color: #939191;text-decoration: none;"><i class='bx bxs-right-arrow' style='color:orange'  ></i><span class="con6row2span1" >Consulting</span></a></li><br>
+                <li ><a href="#" style="color: #939191;text-decoration: none;"><i class='bx bxs-right-arrow' style='color:orange'  ></i><span class="con6row2span1">Interior Design</span></a></li><br>
+                <li ><a href="#" style="color: #939191;text-decoration: none;"><i class='bx bxs-right-arrow' style='color:orange'  ></i><span class="con6row2span1">3D-Elevation</span></a></li><br>
+                <li ><a href="#" style="color: #939191;text-decoration: none;"><i class='bx bxs-right-arrow' style='color:orange'  ></i><span class="con6row2span1">Electric Work</span></a></li><br>
+                <li ><a href="#" style="color: #939191;text-decoration: none;"><i class='bx bxs-right-arrow' style='color:orange'  ></i><span class="con6row2span1">Flooring</span></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row3">
+            <h3 style="color: white;">CONTACT US</h3><br>
+            <p style="color: #939191;"> 4/26A Adaikalapattinam,Pavoorchatram.</p>
+            <p style="color: #939191;"><i class='bx bxs-phone' style='color:orange'  ></i><span class="con6row2span1">+91  95977 51076</span></p>
+            <p style="color: #939191;"><i class='bx bxs-phone' style='color:orange'  ></i><span class="con6row2span1">+91  94431 02048</span></p>
+            <p style="color:#939191 ;"><i class='bx bxs-envelope' style='color:orange'  ></i><span class="con6row2span1">nagercoilbuilders31@gmail.com</span></p>
+            <p style="color: #939191;"><i class='bx bx-world' style='color:orange' ></i><span class="con6row2span1"><a href="index.html" style="text-decoration: none;color: #939191;">www.nagercoilbuilders.com</a></span></p>
+
+          </div>
+
+
+        </div>
+      </div>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <a href="https://api.whatsapp.com/send/?phone=919597751076&text&type=phone_number&app_absent=0" class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+      </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script> 
+</body>
+</html>

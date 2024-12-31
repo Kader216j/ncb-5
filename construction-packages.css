@@ -1,0 +1,778 @@
+*{
+    box-sizing: border-box;
+    
+}
+body {
+    overflow-x: hidden;
+}
+.nav-item:hover:not(.active){
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+}
+.enquire{
+    background-color: orange;
+    color: black;
+    border-color: orange;
+    margin-left: -300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container1 .row1{
+    
+    z-index: 1;
+    top: 0;
+    
+    margin-top: -180px;
+    margin-left: 200px;
+    
+}
+.container3{
+    margin-top: 150px;
+}
+
+.container3 .row1{
+    display: flex;
+    gap: 20px;
+}
+.container3 .row1 .column2{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.container3 .row2{
+    display: flex;
+    gap: 20px;
+}
+.container3 .row2 .column2{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.container3 .row3{
+    display: flex;
+    gap: 20px;
+}
+.container3 .row3 .column2{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.basic{
+    display: flex;
+    gap: 80px;
+    margin-top: 50px;
+    margin-left: -100px;
+   
+}
+.packages4{
+    margin-left: 45px;
+}
+.packages5{
+    margin-left: 110px;
+}
+.packages10{
+    margin-left: 45px;
+}
+.packages11{
+    margin-left: 110px;
+}
+.packages16{
+    margin-left: 45px;
+}
+.packages17{
+    margin-left: 110px;
+}
+.container7{
+    background-color: #2f2f2f;
+}
+.container6{
+    padding: 50px 150px;
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+}
+.container6 .row1 .column2{
+    display: flex;
+    gap: 30px;
+}
+.container6 .row1{
+    width: 33%;
+}
+.container6 .row2{
+    width: 20%;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.container6 .row3{
+    margin-top: 50px;
+}
+.con3col2p1{
+    color: rgb(19, 18, 18);
+    font-size: 45px;
+    margin-left: 100px;
+}
+.con3col2p2{
+    color: black;
+    font-size: 35px;
+    margin-top: -50px;
+    margin-left: 120px;
+}
+.con3col2span1{
+    margin-left: 5px;
+    font-size: 23px;
+}
+.con3col2p22{
+    color: black;
+    font-size: 35px;
+    margin-top: -50px;
+    margin-left: 165px;
+}
+.con3col2p23{
+    color: black;
+    font-size: 35px;
+    margin-top: -50px;
+    margin-left: 180px;
+}
+.con3col2span2{
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+.container3 .row2 .column1{
+    margin-left: 180px;
+}
+
+.container3 .row2 .column2{
+    margin-top: 200px;
+}
+
+.container3 .row3 .column2{
+    margin-top: 150px;
+}
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+     
+.my-float{
+    margin-top:16px;
+}
+.click-popup-call{
+    background-color: orange;
+    color: black;
+    border-color: orange;
+    margin-left: -300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.popup-call {
+    position: fixed;
+    z-index: 9999;
+    height: auto;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.popup-call-show {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #666;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+.click-popup-call {
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.click-popup-call:hover {
+    background: orange;
+}
+
+.popup-form {
+    text-align: left;
+}
+
+.popup-form b {
+    font-size: 18px;
+    color: #444;
+}
+
+.popup-form input, .popup-form textarea {
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.popup-form input[type="submit"] {
+    background: #28a745;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.popup-form input[type="submit"]:hover {
+    background: #218838;
+}
+
+.popup-text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.popup-text p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.popup-text h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    display: none;
+}
+
+.overlay-show {
+    display: block;
+}
+@media screen and (max-width: 768px) {
+    /* Adjust container layout */
+    .container1, .container3, .container6, .container7 {
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    /* Navbar adjustments */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Button adjustments */
+    .enquire, .click-popup-call {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    /* Popup form adjustments */
+    .popup-call {
+        width: 90%;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .popup-form input, .popup-form textarea {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    /* Floating action button */
+    .float {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    /* Flex adjustments */
+    .container3 .row1,
+    .container3 .row2,
+    .container3 .row3,
+    .basic {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    /* Column adjustments */
+    .container3 .row1 .column2,
+    .container3 .row2 .column2,
+    .container3 .row3 .column2 {
+        margin: 0;
+        text-align: center;
+    }
+
+    /* Text and font-size adjustments */
+    .con3col2p1, .con3col2p2, .con3col2span1, .con3col2span2 {
+        font-size: 18px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* Packages adjustments */
+    .packages4, .packages5, .packages10, .packages11, .packages16, .packages17 {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    /* Hide unnecessary large gaps or margins */
+    .container3 .row2 .column1,
+    .container3 .row2 .column2,
+    .container3 .row3 .column2 {
+        margin: 10px 0;
+    }
+
+    /* Overlay adjustment */
+    .overlay {
+        display: block;
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
+
+/* Responsive styles for screens 320px and smaller */
+@media screen and (max-width: 425px) {
+
+    /* General adjustments */
+    * {
+        box-sizing: border-box;
+    }
+
+    html, body {
+        overflow-x: hidden;  /* Prevent horizontal scrolling */
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    /* Navbar */
+    .navbar-nav {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px;
+        font-size: 14px;
+        color: #000;
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item:hover {
+        background-color: orange;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    /* Adjust .container1 .row1 layout for small screens */
+    .container1 .row1 {
+        margin-left: 0;
+        margin-top: 0;
+        padding: 0 10px;  /* Added padding to ensure space around content */
+    }
+    .container1 .row1 p{
+        display: none;
+    }
+    /* Adjust .container3 layout for small screens */
+    .container3 {
+        margin-top: -0px;
+        padding: 0 10px;  /* Ensure proper padding around content */
+    }
+
+    .container3 .row1 {
+        display: flex;
+        flex-direction: column;  /* Stack elements vertically */
+        gap: 10px;  /* Reduced gap for smaller screens */
+        width: 100%;
+    }
+
+    .container3 .row1 .column2 {
+        margin-left: -100px;
+        margin-top: 10px;  /* Adjust top margin for better spacing */
+    }
+    .container3 .row3 {
+        display: flex;
+        flex-direction: column;  /* Stack elements vertically */
+        gap: 10px;  /* Reduced gap for smaller screens */
+        width: 100%;
+    }
+
+    .container3 .row3 .column2 {
+        margin-left: -100px;
+        margin-top: 10px;  /* Adjust top margin for better spacing */
+        width: 100%;
+    }
+
+    .con3col2p1{
+        width: 100%;
+    }
+    .packages{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -10px;
+            list-style: circle inside;
+        }
+    }
+    .packages1{
+        margin-left: 100px;
+        width: 100%;
+        li{
+            margin-left: 60px;
+            list-style: circle inside;
+        }
+    }
+    .packages2{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+        }
+    }
+    .packages3{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+        }
+    }
+    .packages4{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+        }
+    }
+    .packages5{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+        }
+    }
+    
+    .con3col2p22{
+        width: 100%;
+    }
+    .container3 .row2 {
+        display: flex;
+        flex-direction: column;  /* Stack elements vertically */
+        gap: 10px;  /* Reduced gap for smaller screens */
+        width: 100%;
+    }
+
+    .container3 .row2 .column2 {
+        margin-left: -100px;
+        margin-top: 10px;  /* Adjust top margin for better spacing */
+        width: 100%;
+    }
+    .container3 .row2 .column1{
+        z-index: 1;
+        top: 0;
+        margin-top: -1450px;
+        img{
+            margin-left: -90px;
+            max-width: 100%;  /* Ensure image scales with container */
+            height: auto; 
+            
+        }
+    }
+   
+    .container3 .row2 .column2{
+        margin-top: 350px;
+       
+    }
+   
+    .packages6{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+       
+        }
+    }
+    .packages7{
+        margin-left: 100px;
+        width: 100%;
+        li{
+            margin-left: 50px;
+            list-style: circle inside;
+       
+        }
+    }
+    .packages8{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+       
+        }
+    }
+    .packages9{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+       
+        }
+    }
+    .packages10{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+       
+        }
+    }
+    .packages11{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+       
+        }
+    }
+    .container3 .row3 .column2{
+        width: 100%;
+    }
+    .con3col2p23{
+        width: 100%;
+        
+    }
+    .packages12{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+       
+        }
+    }
+    .packages13{
+        margin-left: 100px;
+        width: 100%;
+        li{
+            margin-left: 50px;
+            list-style: circle inside;
+       
+        }
+    }
+    .packages14{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+       
+        }
+    }
+    .packages15{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+       
+        }
+    }
+    .packages16{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+       
+        }
+    }
+    .packages17{
+        margin-left: 180px;
+        width: 100%;
+        li{
+            margin-left: -20px;
+            list-style: circle inside;
+       
+        }
+    }
+    .container3 .row3{
+        margin-top:1450px ;
+    }
+    /* Make images inside .container3 responsive */
+    .container3 img {
+        max-width: 100%;  /* Ensure image scales with container */
+        height: auto;  /* Maintain aspect ratio */
+    }
+
+    /* Adjust .basic layout for small screens */
+    .basic {
+        display: flex;
+        flex-direction: column;  /* Stack items vertically */
+        gap: 20px;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    /* Adjust .container6 layout for small screens */
+    .container6 {
+        flex-direction: column;
+        margin: 10px;
+        padding: 0;
+    }
+    .container6 .row1,
+    .container6 .row2,
+    .container6 .row3 {
+        width: 100%;
+        margin: 0;
+    }
+    
+    /* Text Alignment and Font Size */
+    .conp, .con5p1, .con8p1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    /* Floating Button */
+    .float {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .my-float {
+        margin-top: 10px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    
+    /* Extra Text Adjustments */
+    .conp span, .con5p1 span, .con8p1 span {
+        font-size: 20px;
+    }
+    
+    
+    
+    /* Button Adjustments */
+    .click-popup-call {
+        padding: 10px;
+        padding-right: 100px;
+        padding-left: 100px;
+        font-size: 18px;
+        margin-left: 0;
+    }
+    
+    /* Icon and Social Adjustments */
+    .face, .yout, .ins {
+        padding: 8px;
+        font-size: 12px;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .popup-call {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .popup-form b {
+        font-size: 16px;
+    }
+
+    .popup-form input, .popup-form textarea {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .popup-form input[type="submit"] {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .popup-text h3 {
+        font-size: 18px;
+    }
+
+    .popup-text p {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .click-popup-call {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+   
+}
